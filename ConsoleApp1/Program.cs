@@ -29,10 +29,9 @@ namespace ConsoleApp1
             double s1 = C.Sqwere();
             double s2 = D.Sqwere();
             bool b = C.Intersect(D);
-            Console.WriteLine("Площадь окружности : ");
-            Console.WriteLine(" C = " + s1);
-            Console.WriteLine(" D = " + d2);
-            Console.WriteLine(" между точками A и B " + d3);
+            Console.WriteLine("Площадь окружности C = " + s1);
+            Console.WriteLine("Площадь окружности D = " + s2);
+            Console.WriteLine("Пересекаются окружности: " + b);
 
             Console.ReadLine();
         }
