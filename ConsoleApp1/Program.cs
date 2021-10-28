@@ -31,8 +31,14 @@ namespace ConsoleApp1
             bool b = C.Intersect(D);
             Console.WriteLine("Площадь окружности C = " + s1);
             Console.WriteLine("Площадь окружности D = " + s2);
-            Console.WriteLine("Пересекаются окружности: " + b);
-
+            if (b==true)
+            {
+                Console.WriteLine("Окружности пересекаются");
+            }
+            else
+            {
+                Console.WriteLine("Окружности не пересекаются");
+            }
             Console.ReadLine();
         }
     }
