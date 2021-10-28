@@ -16,6 +16,12 @@ namespace ConsoleApp1
             this.x = x;
             this.y = y;
         }
+
+        public Point(Point A)
+        {
+            this.x = A.x;
+            this.y = A.y;
+        }
         /// <summary>
         /// Метод для рассчета расстояния от начала отсчёта до точки.
         /// </summary>

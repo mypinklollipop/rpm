@@ -18,6 +18,11 @@ namespace ConsoleApp1
         {
             this.r = r;
         }
+
+        public Circle(Point A, int r) : base(A)
+        {
+            this.r = r;
+        }
         /// <summary>
         /// Метод для рассчёта площади круга.
         /// </summary>

@@ -23,7 +23,7 @@ namespace ConsoleApp1
             Console.WriteLine(" между точками A и B " + d3);
 
             Circle C = new Circle(3,-5,4);
-            Circle D = new Circle(2,4,6);
+            Circle D = new Circle(6);
             C.Show();
             D.Show();
             double s1 = C.Sqwere();
@@ -39,6 +39,14 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("Окружности не пересекаются");
             }
+
+            Circle C1 = new Circle(A, 3);
+            Circle C2 = new Circle(B, 5);
+            C1.Show();
+            C2.Show();
+            double d = C1.Distance(C2);
+            Console.WriteLine("Расстояние между центрами окружностей = " + d);
+
             Console.ReadLine();
         }
     }
